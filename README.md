@@ -40,7 +40,7 @@ Continuous integration is triggered, resulting in a new container image saved to
 # Infrastructure
 ![terties](https://github.com/Sanjo-varghese/Tetris-EKS/assets/116708794/7b122a4d-71a0-450a-8b55-23205cb5117b)
 
- # prerequisites
+ # Prerequisites:
 
 # STEP 1: Create IAM Roles
 **Let's First start creating two IAM roles one is for Cluster and another is for Nodegroup**
@@ -67,7 +67,7 @@ Continuous integration is triggered, resulting in a new container image saved to
 ![image](https://github.com/Sanjo-varghese/Tetris-EKS/assets/116708794/7796d8ba-a638-4da2-9835-408fb93a7e29)
 
 # Search these Policy Names and make it check I already have these in
-it )
+
 - AmazonEC2ContainerRegistryReadOnly
 - AmazonEKS_CNI_Policy
 - AmazonEBSCSIDriverPolicy
